@@ -3,27 +3,35 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0CF11F45A4B375EE7E510EA6 /* Pods_mandobank.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD5AF171F07DFFC28C87FEEB /* Pods_mandobank.framework */; };
 		4886B62423A8514900C4425F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4886B62323A8514900C4425F /* AppDelegate.swift */; };
 		4886B62623A8514900C4425F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4886B62523A8514900C4425F /* SceneDelegate.swift */; };
 		4886B62823A8514900C4425F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4886B62723A8514900C4425F /* ContentView.swift */; };
-		4886B62A23A8514B00C4425F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4886B62923A8514B00C4425F /* Assets.xcassets */; };
 		4886B62D23A8514B00C4425F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4886B62C23A8514B00C4425F /* Preview Assets.xcassets */; };
 		4886B63023A8514B00C4425F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4886B62E23A8514B00C4425F /* LaunchScreen.storyboard */; };
+		4886B63823A8529F00C4425F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4886B63723A8529F00C4425F /* GoogleService-Info.plist */; };
+		4886B63E23A8532F00C4425F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4886B63D23A8532F00C4425F /* Assets.xcassets */; };
+		4886B64323A855D200C4425F /* SessionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4886B64223A855D200C4425F /* SessionStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4886B62023A8514900C4425F /* mandobank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mandobank.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4886B62023A8514900C4425F /* mandoBank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mandoBank.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4886B62323A8514900C4425F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4886B62523A8514900C4425F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		4886B62723A8514900C4425F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		4886B62923A8514B00C4425F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4886B62C23A8514B00C4425F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4886B62F23A8514B00C4425F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4886B63123A8514B00C4425F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4886B63723A8529F00C4425F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4886B63D23A8532F00C4425F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../Downloads/Assets.xcassets; sourceTree = "<group>"; };
+		4886B64223A855D200C4425F /* SessionStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionStore.swift; sourceTree = "<group>"; };
+		B7A2815067B1343F05ABDFAA /* Pods-mandobank.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mandobank.debug.xcconfig"; path = "Target Support Files/Pods-mandobank/Pods-mandobank.debug.xcconfig"; sourceTree = "<group>"; };
+		F3D3D1724F7EA89B08D32AAA /* Pods-mandobank.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mandobank.release.xcconfig"; path = "Target Support Files/Pods-mandobank/Pods-mandobank.release.xcconfig"; sourceTree = "<group>"; };
+		FD5AF171F07DFFC28C87FEEB /* Pods_mandobank.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mandobank.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,24 +39,35 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CF11F45A4B375EE7E510EA6 /* Pods_mandobank.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2484BF01F10E350751583F4C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD5AF171F07DFFC28C87FEEB /* Pods_mandobank.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4886B61723A8514900C4425F = {
 			isa = PBXGroup;
 			children = (
 				4886B62223A8514900C4425F /* mandobank */,
 				4886B62123A8514900C4425F /* Products */,
+				95F239842DA707F99BE503B6 /* Pods */,
+				2484BF01F10E350751583F4C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		4886B62123A8514900C4425F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4886B62023A8514900C4425F /* mandobank.app */,
+				4886B62023A8514900C4425F /* mandoBank.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -59,10 +78,12 @@
 				4886B62323A8514900C4425F /* AppDelegate.swift */,
 				4886B62523A8514900C4425F /* SceneDelegate.swift */,
 				4886B62723A8514900C4425F /* ContentView.swift */,
-				4886B62923A8514B00C4425F /* Assets.xcassets */,
+				4886B63D23A8532F00C4425F /* Assets.xcassets */,
 				4886B62E23A8514B00C4425F /* LaunchScreen.storyboard */,
 				4886B63123A8514B00C4425F /* Info.plist */,
+				4886B63723A8529F00C4425F /* GoogleService-Info.plist */,
 				4886B62B23A8514B00C4425F /* Preview Content */,
+				4886B64223A855D200C4425F /* SessionStore.swift */,
 			);
 			path = mandobank;
 			sourceTree = "<group>";
@@ -75,6 +96,15 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		95F239842DA707F99BE503B6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B7A2815067B1343F05ABDFAA /* Pods-mandobank.debug.xcconfig */,
+				F3D3D1724F7EA89B08D32AAA /* Pods-mandobank.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -82,9 +112,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4886B63423A8514B00C4425F /* Build configuration list for PBXNativeTarget "mandobank" */;
 			buildPhases = (
+				8385B7C9D66BA6BDCE96814F /* [CP] Check Pods Manifest.lock */,
 				4886B61C23A8514900C4425F /* Sources */,
 				4886B61D23A8514900C4425F /* Frameworks */,
 				4886B61E23A8514900C4425F /* Resources */,
+				0DD1C9BEFBE03526A162B833 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -92,7 +124,7 @@
 			);
 			name = mandobank;
 			productName = mandobank;
-			productReference = 4886B62023A8514900C4425F /* mandobank.app */;
+			productReference = 4886B62023A8514900C4425F /* mandoBank.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -134,12 +166,55 @@
 			buildActionMask = 2147483647;
 			files = (
 				4886B63023A8514B00C4425F /* LaunchScreen.storyboard in Resources */,
+				4886B63823A8529F00C4425F /* GoogleService-Info.plist in Resources */,
 				4886B62D23A8514B00C4425F /* Preview Assets.xcassets in Resources */,
-				4886B62A23A8514B00C4425F /* Assets.xcassets in Resources */,
+				4886B63E23A8532F00C4425F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0DD1C9BEFBE03526A162B833 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mandobank/Pods-mandobank-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mandobank/Pods-mandobank-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-mandobank/Pods-mandobank-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8385B7C9D66BA6BDCE96814F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mandobank-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4886B61C23A8514900C4425F /* Sources */ = {
@@ -148,6 +223,7 @@
 			files = (
 				4886B62423A8514900C4425F /* AppDelegate.swift in Sources */,
 				4886B62623A8514900C4425F /* SceneDelegate.swift in Sources */,
+				4886B64323A855D200C4425F /* SessionStore.swift in Sources */,
 				4886B62823A8514900C4425F /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +358,7 @@
 		};
 		4886B63523A8514B00C4425F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7A2815067B1343F05ABDFAA /* Pods-mandobank.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -293,15 +370,17 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = me.deceptive.mandobank;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = mandoBank;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		4886B63623A8514B00C4425F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3D3D1724F7EA89B08D32AAA /* Pods-mandobank.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -313,10 +392,11 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = me.deceptive.mandobank;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = mandoBank;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
