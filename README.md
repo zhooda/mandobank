@@ -1,3 +1,3 @@
 # mandoBank
 
-Counting your beskar since 2019.
+Counting your beskar since a long time ago.
